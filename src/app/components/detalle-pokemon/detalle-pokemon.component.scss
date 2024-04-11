@@ -1,0 +1,43 @@
+@import "../../../assets/styless/varaibles.scss";
+
+.card{
+    width: 380px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: $red;
+}
+
+.header-image{
+    background-size: cover;
+}
+
+.mat-mdc-card-header{
+    background-color: $white;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+
+}
+
+.mat-mdc-card.title{
+    text-transform: uppercase;
+    color: $black;
+}
+
+.mat-mdc-card-subtitle{
+    color: $black;
+}
+
+.mat-mdc-chip{
+    background-color: $blue !important;
+    color: white !important;
+    margin: -10px auto 0 !important;
+    margin-top: -20px !important;
+}
+
+.mat-mdc-chip-text {
+    color: rgb(255, 255, 255) ;
+}
